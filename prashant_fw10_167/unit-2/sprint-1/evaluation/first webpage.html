@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #main{
+        width: 700px;
+        margin: auto;
+    }
+    #heading{
+        display: flex;
+        flex-basis: 32%;
+       
+    }
+.above{
+    background-color:white ;        
+        width:60px;
+        height: 60px;
+        border-radius: 35px;
+        text-align: center;   
+    }
+    .box{
+        display: flex;
+        gap: 10px;
+        border:1px solid black ;
+    }
+#heading>div{
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    padding:5px;
+    background-color: #1E88E5;
+
+}
+.text>div{
+    text-align: center;
+    color: blanchedalmond;
+    margin:5px;
+}
+#middle{
+    text-align: center;
+    margin-top: 50px;
+}
+h1{
+    color: blue;
+}
+#edu{
+    display: flex;
+    width:400px;
+    gap: 10px;
+    
+    
+}
+#middle>div{
+    text-align: center;
+    margin-left: 180px;
+}
+#edu>div{
+   color: cadetblue;
+}
+#edu :nth-child(1){
+    background-color: darkblue;
+    flex-basis: 27%;
+  
+}
+#bottom{
+    padding:15px;
+    display: flex;
+    flex-basis:30%;
+    gap: 15px;
+    margin: auto;
+    height: 450px;
+   
+
+}
+.cont>button{
+   margin-left:35px ;
+   width: 100px;
+   height: 25px;
+   border-color: blue;
+   color: blue;
+   border-radius: 5px;
+   
+}
+.text{
+    color: cadetblue;
+}
+</style>
+<body>
+    <div id="main">
+        <div id="heading">
+            <div class="box">
+                <div class="image"><img class="above" src="https://via.placeholder.com/70x70"/></div>
+                <div  class="text">
+                    <div>Scholarships</div>
+                    <div>Available</div>
+                </div>
+            </div>
+             <div class="box">
+                <div class="image"><img class="above" src="https://via.placeholder.com/70x70"/></div>
+                <div  class="text">
+                    <div>Scholarships</div>
+                    <div>Available</div>
+                </div>
+            </div>
+             <div class="box">
+                <div class="image"><img class="above" src="https://via.placeholder.com/70x70"/></div>
+                <div class="text" >
+                    <div>Scholarships</div>
+                    <div>Available</div>
+                </div>
+            </div>
+
+         </div>
+
+         <div id="middle">
+             <h1>
+                 Popular Program
+             </h1>
+             <div id="edu">
+                 <div>Graduate</div>
+                 <div>Postgraduate</div>
+                 <div>PHD Scholarship</div>
+                 <div>Training</div>
+             </div>
+         </div>
+         <div id="bottom">
+             <div class="cont">
+
+                <div>
+                    <img src=" https://via.placeholder.com/200x200"/>
+                </div>
+                <div class="text">Agriculture</div>
+                <h3>Chemical engineering</h3>
+               <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+             <button>Apply now</button>
+            </div>
+              <div class="cont">
+
+                <div>
+                    <img src=" https://via.placeholder.com/200x200"/>
+                </div>
+                <div class="text" >Agriculture</div>
+                <h3>Mechnical engineering</h3>
+               <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+             <button>Apply now</button>
+            </div>
+              <div class="cont">
+
+                <div>
+                    <img src=" https://via.placeholder.com/200x200"/>
+                </div>
+                <div class="text">Agriculture</div>
+                <h3 >Bio engineering</h3>
+                <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+
+                <button>Apply now</button>
+             </div>
+             
+         </div>
+    </div>
+</body>
+</html>
